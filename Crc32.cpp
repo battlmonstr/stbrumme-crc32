@@ -19,6 +19,9 @@
 
 #include "Crc32.h"
 
+#pragma GCC diagnostic ignored "-Wold-style-cast"
+#pragma GCC diagnostic ignored "-Wsign-conversion"
+
 #ifndef __LITTLE_ENDIAN
   #define __LITTLE_ENDIAN 1234
 #endif
